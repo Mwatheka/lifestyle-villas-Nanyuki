@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lifestyle Villas are classy self-catering apartments to let for long term or short-term rental with a cottages charm located in Nanyuki, Laikipia County, Kenya adjacent to Ol Pejeta Conservancy 15kms to Solio Reserve 3Km to Nanyuki Sports Club with views of Mt Kenya just 2kms from Nanyuki town 200m off main highway to Nanyuki from Nyeri, Lifestyle Villas offers modern lifestyles ideal for honeymoon holidays, family vacations, workshops, conferences plus team building retreats and is the best wedding venue in Nanyuki, Lifestyle Apartments is a hotel within a villa, Step inside Lifestyle Villas Nanyuki and be enveloped by comfort and sophistication because the villa offers multiple entertaining and living areas">
+    <meta name="keywords" content="Lifestyle Villas, Lifestyle Villas Nanyuki, Lifestyle Villas Laikipia, Lifestyle, Lifestyle Apartments, Lifestyle Airbnb, Lifestyle Nanyuki, Lifestyle Kenya, Nanyuki, Mount Kenya, Nanyuki Hotels, Nanyuki, Accommodation in Nanyuki,  Nanyuki Apartments, Apartments in Nanyuki, Self catering in Nanyuki, self catering apartments in Nanyuki, Nanyuki Cottages, Nanyuki Self catering Cottages, self catering cottages in Nanyuki, Cottages in Nanyuki,, 1 bedroom apartments in Nanyuki, Kenya, Nanyuki Wedding venues, wedding venues in Nanyuki, wedding grounds in Nanyuki, Nanyuki Night Life, bars in Nanyuki, club in Nanyuki, ">
+
+  <title>Lifestyle Villas Nanyuki, Laikipia, Kenya – Nanyuki Self Catering Apartments & Cottages Rental </title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-4lCUNt1+5cDZgeZA5XhFvGBkJktUUDse27oTjbcKePA7hTP1DJK5pj5BA5chLZZ8RW2dhdBoYy9vA3oUyMjG4g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+  <!-- Custom CSS -->
+  <style>
+    hr {
+      color: black; /* color of the line */
+      background-color:black; /* background color of the line */
+      border: 1px solid black;
+      
+  }
+    .gallery-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+  }
+  
+  .carousel-item img {
+      width: 230px;
+      height: 300px;
+      object-fit: cover;
+  }
+  
+  .carousel-item {
+      display: none;
+  }
+  
+  .carousel-item.active {
+      display: block;
+  }
+  
+  .icons-container {
+      background-image: url('image 2.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Center vertically */
+      align-items: center; /* Center horizontally */
+  }
+  
+  .icons-container a.btn {
+      padding: 20px 40px; /* Adjust padding to increase button size */
+      margin-bottom: 20px; /* Add margin between buttons */
+  }
+  
+  .navbar.nav-bg {
+      background-color: transparent; /* Updated background color to transparent */
+      color: white; /* Updated text color to white */
+  }
+  
+  .nav-links {
+      display: flex; /* Use flexbox */
+      justify-content: center; /* Center the list items horizontally */
+      padding-left: 0; /* Remove default padding */
+  }
+  
+  .navbar.nav-bg .nav-link {
+      color: white; /* Set text color to white */
+  }
+  
+  .navbar.nav-bg .navbar-toggler-icon {
+      background-color: white; /* Set icon color to white */
+  }
+  
+  .navbar.nav-bg .navbar-toggler {
+      border-color: white; /* Set border color to white */
+      color: white; /* Set text color to white */
+  }
+  
+  .navbar.nav-bg .navbar-toggler:focus,
+  .navbar.nav-bg .navbar-toggler:active {
+      outline: none; /* Remove outline on focus or active state */
+  }
+  
+  .nav-item {
+      margin-right: 10px; /* Add space between list items */
+  }
+  
+  .nav-item:last-child {
+      margin-right: 0; /* Remove margin from the last list item */
+  }
+  
+  .nav-item a {
+      color: white; /* Set white text color */
+      background-color: black; /* Set black background */
+      padding: 10px 20px; /* Adjust padding */
+      border-radius: 5px; /* Add border radius */
+  }
+  
+  .nav-item:hover {
+      background-color: #333; /* Darken background on hover */
+      }
+      .carousel-control-prev, .carousel-control-next {
+        position: absolute;
+        top: 0;
+        transform: translateY(50%);
+        z-index: 10; /* Ensure buttons are above the carousel content */
+        width: 50px; /* Adjust width of buttons */
+        height: 50px; /* Adjust height of buttons */
+        background-color: black; /* Semi-transparent background */
+        border: none; /* Remove border */
+        border-radius: 50%; /* Make buttons circular */
+        color: black; /* Text color */
+    }
+
+    .carousel-control-prev {
+        left: 5px; /* Position previous button at left */
+    }
+
+    .carousel-control-next {
+        right: 5px; /* Position next button at right */
+    }
+
+    @media (max-width: 768px) {
+        /* Adjustments for small screens */
+        .carousel-item {
+            padding-top: 20px; /* Add space above each image */
+            padding-bottom: 20px; /* Add space below each image */
+        }
+    }
+    
+      
+  </style>
+</head>
+<body style="font-family: Georgia, 'Times New Roman', Times, serif;">
+  <header class=" py-3">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col">
+          <h1>Lifestyle Villas Nanyuki</h1>
+        </div>
+        <div class="col text-end">
+          <strong>
+          <h6 style="color:black">Email:
+            bookings@bookingsmgt.co.ke
+          </h6>
+          <h6>
+            Telephone: +254 724 348088
+          </h6>
+        <h6>P.O BOX 3330213</h6>  
+      </strong>      
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg nav-bg">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav-links">
+            <li class="nav-item"><a href="" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="" class="nav-link">ABOUT US</a></li>
+            <li class="nav-item"><a href="" class="nav-link">WHY US</a></li>
+            <li class="nav-item"><a href="" class="nav-link">REVIEWS</a></li>
+            <li class="nav-item"><a href="" class="nav-link">BLOGS</a></li>
+            <li class="nav-item"><a href="#gallery" class="nav-link">GALLERY</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">CONTACT US</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <main class="container py-5">
+    <section class="row">
+      <div class="col-md-12 justify-content-center">
+        <div style="position:relative;">
+          <img src="459739972.jpg" alt="Banner Image" style="width:100%; height:50vh; object-fit: cover;">
+          
+        </div>
+      </div>
+    </section>
+    <hr class="hr"> 
+    <section class="row">
+      <div class="col-md-12">
+        <h2></h2>
+        <p style="text-align:justify;">
+<b>Lifestyle Villas</b> are classy <b>self-catering apartments</b> to let for <b>long term</b> or <b>short-term rental</b> with a <b>cottages</b> charm located in <b>Nanyuki, Laikipia County, Kenya</b> adjacent to <b>Ol Pejeta Conservancy</b> 15kms to <b>Solio Reserve</b> 3Km to <b>Nanyuki Sports Club</b> with views of <b>Mt Kenya</b> just 2kms from <b>Nanyuki town</b> 200m off main highway to Nanyuki from <b>Nyeri, Lifestyle Villas</b> offers modern lifestyles ideal for <b>honeymoon holidays, </b> family vacations, workshops, <b>conferences</b> plus <b>team building</b> retreats and is the best <b>wedding venue in Nanyuki, Lifestyle Apartments</b> is a <b>hotel</b> within a <b>villa, </b> Step inside <b>Lifestyle Villas Nanyuki</b> and be enveloped by comfort and sophistication because the villa offers multiple entertaining and living areas, spacious comfortable bedrooms, a private swimming pool amidst landscaped gardens and is walking distance to Nanyuki, The magnificent <b>Lifestyle Villas</b> is the perfect balance between luxury and comfort and with an abundance of natural light flooding in through large windows every room has been designed to create a sense of peace and tranquility, there is ample space for families to enjoy a truly unforgettable vacations, <b>Lifestyle Villas</b> are the most impressive and enchanting villas in Kenya, a stay here will be truly memorable, a place of extraordinary beauty, tranquility and elegance, <b>Lifestyle Villas</b> is a secluded private estate set amongst spacious, perfectly manicured gardens, the estate consists of 6 stunning Villas, unquestionably one of the world's finest and most exclusive safari retreats, <b>Lifestyle Villas</b> is a truly exceptional holiday destination where guests can relax and enjoy unsurpassed levels of style and luxury and for the comfort of each guest <b>Lifestyle Villas</b> provides a full staff to take care of every possible request. A perfect blend of world-class amenities with classic Spanish design and exquisite attention to detail is evident throughout. <b>Lifestyle Villas</b> is a rare delight that charms and enthralls at every turn. <b>Lifestyle Villas in Nanyuki</b> represents the pinnacle of luxury, <b>Lifestyle Villas</b> without doubt bestows guests with unique and unmatched views of the majestic Mount Kenya within a private and exclusive setting. Having undergone a complete restoration, <b>Lifestyle Villas</b> provides a first-class blend of modern convenience and amenities that is surrounded by natural beauty and furnished with the highest quality French modem furniture, fine art and objects chosen from across Europe. Adjacent to <b>Lifestyle Villas</b> is infinity edge swimming pool finished with reflective tiles, for some people it is the captivating panorama views of Mount Kenya; for others it is the unique atmosphere which makes guest's dreams of 'undreamt of pleasures' come true, with 1large square meters of living space and bedroom spaces and other private quarters, Best choice for private events, weddings, meetings and team building with our well trained experiences staffs with our perfect indoor or outdoor venues, we also offer 24 Hour security guard service with a full perimeter security system that makes sure that you are safe. We have a team of pristine quality personnel: chefs, cooks, main housekeeper and cleaning ladies are at your disposal during the day. Upon request our high-quality safari guides will help you organize <b>safaris to Ol Pejeta Conservancy</b> or and <b>Mount Kenya Wildlife Estate</b>  
+      </p>
+      </div>
+      
+    </section>
+    <hr>   
+
+          
+    <section class="row" style="background-image: url('459740247.jpg'); background-size: 100% 100%; background-repeat: no-repeat; color:white;">
+
+      <div class="col-md-12" style="background-color:rgba(0, 0, 0, 0.5);">
+        <h2><h2>Lifestyle Villas the Experience  </h2>
+        <p style="text-align:justify;">
+<b>Lifestyle Villas</b> are 5 bedrooms all-ensuite, with 5 bathrooms and 5 bedrooms in total. The villas which are 5 in number are all in one gate piece of land. <b>Lifestyle Villas</b> include, a swimming pool, an expansive Living room with fire place and Dining area, a fully furnished Kitchen and <b>well-furnished</b> bedrooms. The villas overlook an obstructed view of Mt. Kenya, just 200m off the main <b>Nanyuki-Nyeri Road</b>. With the just 6min, 2km drive to <b>Nanyuki town, </b> the Villas are close enough to everything. Also included with the Villas, reliable Internet supply, Security Guard and electric perimeter guaranteeing safety. The Villas comes well furnished with thoughtful interior touches to give the Villas a modern, cozy, elegant comfortable feel. There is also parking for up to 4 cars per Villa, every taste be worth remembering? Your private chef who presides over our kitchen can make it so. <b>Lifestyle Villas</b> culinary team uses only the freshest ingredients of the highest quality. We lean towards lighter international cuisine, making the most of the superb local seafood on our doorstep. However, all our guests are asked ahead of arrival of any culinary preferences to ensure their stay is as enjoyable as possible. All meals and drinks, including soft drinks, house wines, spirits and champagne, are not included in the rental fee. An extensive wine list is available upon advance request which includes a wide range of rare vintages. Our chefs are wonderfully creative and responsive and can cater for special diets and are happy to procure any special requests not within our usual offering*. Whatever your mood, whatever you feel like, however lavish or simple, it will be authentic and delicious. Designed to the highest standards of comfort, elegance and pampering convenience for a holiday filled with romance, carefree fun and soul-soothing relaxation. Minimalist décor rendered in soothing earth-tones that meld gracefully with the luxuriant surrounds and breathtaking views. We offer an unparalleled experience of having your own private home nest to a private Ol Pejeta conservancy, while our tourism profits are used to support our conservation efforts. An essential component of our success is when others recognize the impact, we are making towards protecting critically endangered species and assisting local communities. With your help and support, we can undertake projects that have a much more meaningful impact.
+     </p>
+      </div>
+     </section>
+     <br>
+    <section class="row">
+      <div class="col-md-12">
+        <h2>Lifestyle Villas Fact Sheet </h2>
+        <p style="text-align:justify;">
+          Lifestyle Villas is 5 bedrooms (4-ensuite), with 5 bathrooms. The Villas include, an expansive Living room with fire place and Dining area, a fully furnished Kitchen and well-furnished bedrooms. The villas overlook an obstructed view of Mt. Kenya, just 5Km from Nanyuki town, with just 5min drive to Nanyuki town and 200m off the main highway to Nanyuki town From Nyeri, the Villas are close enough to everything. <b>Lifestyle Villas</b> represent the pinnacle of opulence. Each villa is a masterpiece of design and architecture, meticulously crafted to harmonize with the island's natural beauty. They often feature spacious living areas, modern amenities, and contemporary Thai aesthetics, creating an atmosphere of serenity and sophistication. Lifestyle Villas, Nanyuki is located in Nanyuki, 37 km from Solio Game Reserve, 8.1 km from Nanyuki Sports Club, as well as 15 km from Mount Kenya Wildlife Conservancy. There is a private entrance at the villa for the convenience of those who stay. The villa also provides free WiFi, free private parking and facilities for disabled guests. The villa provides guests with a terrace, mountain views, a seating area, satellite flat-screen TV, a fully equipped kitchen with an oven and a microwave, and a private bathroom with walk-in shower and slippers. A balcony with an outdoor dining area and inner courtyard views is offered in every unit. At the villa complex, every unit has bed linen and towels.
+        </p>
+      <br>
+      <h2>Nanyuki </h2>
+        <p style="text-align:justify;">
+<b>Nanyuki</b> is the capital of <b>Laikipia County. </b> The town and its surrounding area connect Mount Kenya in the South East to the edge of the Great Rift Valley in the West, known as 'Kenya’s high country’. Nanyuki is a town in Laikipia County, Kenya. <b>Nanyuki</b> is located along the Great North leading to Moyale, Addis Ababa, and beyond. Besides being a popular Kenya safari destination in Kenya, <b>Nanyuki town</b> is synonymous with Kenya Road trips. Founded in 1907 by British settlers as a small market town, Nanyuki soon grew commercially and economically. By 1930, Nanyuki’s potential justified the construction of a railway line linking the town to Nairobi. Presently a base for the Kenya Air Force and a training area for the British Army, Nanyuki continues to be an administrative and supply centre for farms, ranches, game parks and conservancies in the region. Nanyuki lies along the Equator, in the centre of the nation, and at an elevation of 1,947m above sea-level, is the 14th highest town in Africa. <b>Nanyuki town</b> is a jewel in Kenya’s crown. A gateway to <b>Mount Kenya National Park, </b> wildlife conservancies, and the wonders of Northern Kenya. There are many restaurants and eateries in Nanyuki town. If you are looking for delicious food, well-brewed coffee, or a place to relax, this town will not disappoint. Among the best places are KFC at Cinder Mall, Dorman’s, Urban Smoke, and the Nook.  Major Banks, ATMs, and Sacco’s are available in Nanyuki. Kenya Women, KCB, Equity, I&M Bank, Family, Post Bank, Unison, and Absa are the most common. One of the most attractive things about Nanyuki is <b>Nanyuki Nightlife. </b> The <b>Nightlife in Nanyuki</b> is lively throughout the week and vibrant over weekends. Traveler’s favorite bars and clubs are Moran Lounge, Downtown, and Checkers Club. Nanyuki is growing fast with shopping malls and centers. There are also several local markets with groceries, gifts, and wares. Cinder Mall and Nanyuki Mall are the favorites. While Nanyuki has some excellent restaurants and places to stay, it is more than a sum of its parts. Nanyuki is Mount Kenya and its alpine forest, it is a safari in the green fields of Ol Pejeta or the ancient landscape of the Loldaiga Hills. It is zip lining through the Ndare Ngare forest or crashing through waterfalls on the Sagana River.  Nanyuki as a gateway to Mount Kenya and the wilderness of <b>Mount Kenya National Park</b>. It sits on the equator, 3 hours north of Nairobi. Its elevation of 2000 meters means it is colder and wetter than the rest of Kenya. Nanyuki is the largest town in the area, settled by British immigrants and still favoured by their descendants. Business in the area comes from ranches, farms, and game parks, or the supply of goods to them. Tourism is huge as there is a lot to see and do in Nanyuki. The Nanyuki equator market is little more than a battered sign next to the road, but it is fun to jump out of the car and take a picture at the very centre of the world. There is usually a guy there with bucket system that shows you the Coriolis effect. Essentially, how water flows in a different direction in the northern and southern hemisphere. <b>Nanyuki Weavers</b> is a special stopover in Nanyuki allowing you to observe traditional weaving methods and buy gorgeous rugs and shawls. Nanyuki Weavers employs over 110 women who will guide you through the workshop showing you each stage of the weaving process. Watch the women cleaning and dyeing the wool and spinning it on traditional looms. 
+        </p>
+      </div>
+      </section>
+      <br>
+      <section class="row" style="background-image: url('459740642.jpg'); background-size: 100% 100%; background-repeat: no-repeat; color:white;">
+
+        <div class="col-md-12" style="background-color:rgba(0, 0, 0, 0.5);">
+          <h2><h2>How to Get to Nanyuki</h2>
+          <p style="text-align:justify;">
+Nanyuki is a wonderful town that lies on the equator. It’s located on the edge of central highlands and opens to the Laikipia Plateau and the wonders of northern Kenya. Nanyuki town is inhabited by people from different cultures, including local communities, ex-pats, descendants of early British settlers, and military personnel. Walking along the streets of this small town offers you an opportunity to experience this diverse characteristic and learn about its history. There are three main modes of transport from Nairobi to Nanyuki – Road, Railway, and Air. Nanyuki distance from Nairobi is about 147 km. Travelers can get there using private means, public Matatu’s, or in an overland truck. There is a passenger train from Nairobi to Nanyuki every Friday. And for faster travel, use local flights to Nanyuki airstrip. Nanyuki is approximately 3 – 4 hours north of Nairobi, depending on traffic. The drive, once you get past the congested roads around Thika are smooth going. Driving through banana and pineapple plantations, and if the day is clear heading for the snowy peaks of Mount Kenya. Several flights a day operate to the teeny Nanyuki airport, from Wilson airport in Nairobi. <b>Nanyuki airport</b> is located on the western foot hills of <b>Mount Kenya, </b> it lies only 8 kilometers, south of the Equator. <b>Nanyuki</b> is approximately 140 kilometers (87 mi), by air, north of Jomo Kenyatta International Airport, the country's largest civilian airport. The <b>Nanyuki airport</b> has a single asphalt runway which measures 1,200 meters (3,900 ft) in length In the 1960s the <b>Nanyuki Airfield</b> was situated along the Nanyuki - Rumuruti Road. It was a grassy runway used by single engine, privately owned aircraft. During the 70s the site was purchased by the Kenya government for the air force, and named Laikipia Air Base. The new civil airfield for Nanyuki was moved to its current location between the towns of Naro Moru and Nanyuki. In the 70s Nanyuki Civil Airfield came into its own when the <b>Mount Kenya Safari Club</b> was attracting the wealthy and famous – and the first <b>Nanyuki charter flights</b> started venturing in. When Tropic Air set up its base here in 1983, there was only a patchy and overgrown tarmac runway and a single caretaker’s hut. Over the years, through investment and development, we have been instrumental in putting Nanyuki Airfield on the map as a major and vital air hub serving Northern Kenya, and linking the north with the rest of Kenya. Today <b>Nanyuki Airport</b> has an excellent reputation for its broad aviation services, along with its charming atmosphere, unique location and Barney’s restaurant! <b>Safarilink</b> operates two daily <b>scheduled flights to Nanyuki</b>‚ Lewa and Samburu.  These <b>Nanyuki flights</b> allow passengers access to all the conservancies in the Laikipia region‚ and to the trio of northern reserves: Samburu‚ Shaba and Buffalo Springs. Tropic Air is a privately owned air charter company, incorporated in the early 1990s at the time that northern Kenya’s low-impact and high value tourism lodges and camps were emerging. Nanyuki is a great town and is one of the best places to visit in Kenya. It’s the gateway to unexplored northern Kenya, Mount Kenya National Park, and wildlife conservancies in the Laikipia Plateau. Although there are many things to do in Nanyuki, a myth surrounding a lost railway route map has made the town more popular as an entertainment hotspot. The tale tells of how railway engineers got carried away by the fun and merry in Nanyuki. They lost the route map which marked the end of the Nairobi-Nanyuki railway and was supposed to extend to northern Kenya. If you’re interested in a taste of Nanyuki’s nightlife, go to the Downtown Club or Moran Lounge. After all, no trip to this town is complete without partying.
+      </p>
+        </div>
+       </section>
+       <br>
+
+       <section class="row">
+        <div class="col-md-12">
+          <h2>Go Shopping at the Equator Market </h2>
+          <p style="text-align:justify;">
+            The equator market is one of the best places to go gift shopping in Nanyuki. This small curio market is located on the main road next to the Equator Marker and sells beautiful souvenirs and cultural items. You can walk into any of the stalls and haggle your way for fabrics, keepsakes, African paintings, and safari hats. You can also get a wristband or a t-shirt to show off when you get home, confirming that you crossed the equator at Nanyuki. While still there, ask your guide or locals to show you where the famous Silverbeck Hotel was located. The hotel was designed and built in such a way that the equator ran right through the bar. Visitors could enjoy their drinks while switching between the northern and southern hemispheres.
+          </p>
+        <br>
+        <h2>Climb Mount Kenya </h2>
+          <p style="text-align:justify;">
+            Climbing Mount Kenya has to be one of the best activities in Nanyuki. The mountain is accessible from Nanyuki via Burguret or Sirimon gates. Travelers prefer the latter, as it’s considered the easiest and most scenic route. The best way to reach Point Lenana (a popular summit with visitors) is to join a 3 Days <b>Mount Kenya climbing</b> the expedition departs from Nanyuki and takes you through a magnificent montane forest, rivers, and alpine vegetation.
+            </p>
+        </div>
+      </section>
+<br>
+        <section class="row" style="background-image: url('385531624.jpg'); background-size: 100% 100%; background-repeat: no-repeat; color:white;">
+
+          <div class="col-md-6" style="background-color:rgba(0, 0, 0, 0.5);">
+            <h2><h2>Wildlife Conservation Efforts </h2>
+            <p style="text-align:justify;">
+              Nanyuki showcases its commitment to preserving its natural heritage through various wildlife conservation efforts, such as the Mount Kenya Wildlife Conservancy, Ol Jogi, and the Laikipia Wildlife Forum. These organizations work tirelessly to safeguard the wildlife and habitats of the region, ensuring future generations can enjoy the rich biodiversity of Laikipia County. The Mount Kenya Wildlife Conservancy, for example, is a non-profit organization striving to protect the wildlife and habitats of Mount Kenya. Meanwhile, Ol Jogi’s 58,000-acre private conservancy offers projects focused on animal rescue, rehabilitation, and anti-poaching protection. When you support these initiatives, you play a part in preserving the region’s remarkable natural heritage.
+             </p>
+                 <h2><h2>Birdwatching and Nature Walks</h2>
+            <p style="text-align:justify;">
+              Nanyuki’s diverse flora and fauna make it an ideal destination for birdwatching and nature walks. With locations such as The Safari Series, <b>Mt. Kenya National Park</b>, and Ol Pejeta Conservancy, you can anticipate a range of birds, wildlife, and picturesque views of the surrounding landscape. While you revel in the region’s natural splendor, remember to take precautions like wearing suitable attire, carrying a first-aid kit, and sticking to the marked trails. With these simple safety measures in place, you’ll be free to lose yourself in the wonders of Nanyuki’s enchanting wilderness.
+              </p>
+          </div>
+        
+          <div class="col-md-6" style="background-color:rgba(0, 0, 0, 0.5);">
+            <h2>Ol Pejeta Conservancy </h2>
+                <p style="text-align:justify; font: weight 6px;">
+<b>Ol Pejeta Conservancy</b> is a 364sq km wildlife conservancy situated between the foothills of <b>Mount Kenya</b> and the <b>Aberdares</b> and its game-to-area ratio tops the Kenyan park and reserve league. Nestled in the foothills of the snow-capped Mount Kenya within Laikipia County in central Kenya, <b>Ol Pejeta Conservancy</b> stands as a pioneering force in the realm of conservation. Renowned for its dedicated efforts, the Ol Pejeta Conservancy gained global recognition for safeguarding the planet’s sole remaining pair of northern white rhinos. In addition, this idyllic location, framed by the majestic presence of Mount Kenya, underscores Ol Pejeta’s commitment to preserving endangered species and fostering biodiversity. The sanctuary’s proactive role in wildlife protection and habitat conservation makes it a symbol of hope and a leading example in the ongoing global endeavor to safeguard endangered species. Ol Pejeta Conservancy is a renowned wildlife haven in Kenya that promises a plethora of attractions. Nestled against the backdrop of breathtaking landscapes, this conservation marvel boasts an impressive array of wildlife, including the iconic Big Five. Planning a <b>Safari to Ol Pejeta Conservancy</b> the home of the last two northern white rhinos on Earth, visitors can also witness the unique interplay of nature and community initiatives, making it a holistic experience. Whether you seek thrilling safaris, conservation insights, or a connection with nature’s wonders, Ol Pejeta Conservancy awaits, offering diverse and enriching attractions. The Ol Pejeta Conservancy in Kenya has over 10000 large mammals and it is the only park where the big 5 and chimpanzees can be seen. It is also where the fastest growing population of rhino in Africa can be found. There are southern white rhinos, about 80 endangered <b>black rhino</b> and in a special sanctuary there are two of the world’s last remaining northern white rhino. Safari by vehicle is not the only option at Ol Pejeta, safari game walks, horse rides and even camel rides are available, as are <b>safari night drives</b>. Since being established in 1988 Ol Pejeta has had a colorful list of previous owners including Lord Delamere, an early and influential settler from Britain, shipping tycoon Aristotle Onassis’ father Roussel and the arms dealer Adnan Khashoggi. It was set up originally as a cattle ranch but herds of migrating elephant regularly destroyed the fenced enclosures making intensive cattle farming impracticable. Cattle still plays a role in Ol Pejeta today but as a managed livestock within the conservancy and is used to maximize the bio-diversity of the land making Ol Pejeta an integrated wildlife and livestock area. The conservancy is keen to educate as well and has an Environmental and Conservation Centre that welcomes around 100 Kenyan schools through its doors annually. The Centre focusses on teaching ecology, culture and the importance of sustainable wildlife management to safeguard the future of the conservancy. Visitors can also learn about local culture and traditions by meeting the peoples of the Samburu, Turkana, Pokot and Maasai.
+                 </p>             
+              </div>    
+        </section>
+        <hr>
+
+       <section class="row">
+        <div class="col-md-12"><h1>Nanyuki Frequently Asked Questions</h1></div>
+        <br>
+         <div class="col-md-6">
+          <h2>Why is Nanyuki famous?</h2>
+          <p style="text-align: justify;">
+            Nanyuki is a renowned destination in Kenya, offering visitors the chance to explore entertainment hotspots, large farms, wildlife conservancies, and the equator line. It also serves as a great base for climbing Mount Kenya, making it a popular year-round destination.
+              </p>
+           <br>
+          <h2>Is Nanyuki Kenya safe?</h2>
+          <p style="text-align: justify;">
+            Overall, Nanyuki is generally considered safe for traveling alone. However, as always, it is wise to take precautionary measures and familiarize yourself with the area before you visit.
+                </p>
+           <br>
+           <h2>Is Nanyuki a good place to live?  </h2>
+            <p style="text-align: justify;">
+              Nanyuki, surrounded by breathtaking views of Mount Kenya and offering a diverse range of attractions, is an ideal place to live due to its growing popularity for land investment and tourist activities.
+               </p>
+        </div>
+        <div class="col-md-6">
+         <h2>Which tribe lives in Nanyuki?</h2>
+            <p style="text-align: justify;">
+              Nanyuki is home to several, including Kikuyu, Luo, Kalenjin, Turkana, and Maasai.
+            </p>      
+            <h2>What wildlife can I expect to see in Nanyuki?</h2>
+            <p style="text-align: justify;">
+              Visitors to Nanyuki can expect to see diverse wildlife such as elephants, leopards, buffalo, zebras, oryx, and many bird species.
+             </p>      
+          </div>
+      </section> 
+<br>
+<hr>
+
+<section class="row" style="background-image: url('385531810.jpg'); background-size: 100% 100%; background-repeat: no-repeat; color:white;">
+
+  <div class="col-md-12" style="background-color:rgba(0, 0, 0, 0.5);">
+    <h2><h2>Summary</h2>
+    <p style="text-align:justify;">
+      From its captivating wildlife encounters and luxurious accommodations to its thrilling outdoor adventures and diverse dining scene, Nanyuki offers an unparalleled African experience. With its rich history, breathtaking natural beauty, and easy accessibility, Nanyuki is the perfect destination for your next unforgettable journey. So, what are you waiting for? Embark on your adventure to Nanyuki and discover the wonders of Laikipia County for yourself.
+      <br>
+      Highlights of a Visit to Nanyuki Kenya
+       <ul>
+      <li>	Explore Nanyuki Town in Laikipia County, Kenya for wildlife encounters and rescued animals.</li>
+      <li>	Enjoy accommodation options ranging from luxury lodges to budget stays, outdoor activities & adventures such as Mount Kenya trekking or birdwatching.</li>
+      <li>Delight in the array of eateries and vibrant nightlife with easy access via private planes from Nairobi.</li>
+    </ul>
+       </p>
+  </div>
+ </section>
+<br>
+<hr>
+    <section class="row">
+      <div class="col-md-12">
+        <h2>Booking Nanyuki Lifestyle Apartments   </h2>
+          <p style="text-align:justify;">
+Staying in a <b>serviced apartment in Nanyuki</b> is great, <b>Nanyuki Serviced Apartments</b> - Book <b>serviced apartments in Nanyuki</b> with more space than a <b>Nanyuki hotel</b> room and a huge choice of convenient locations. extended or short stay <b>apartment in Nanyuki</b> gives you the freedom to experience <b>Nanyuki</b> the way that suits you best. Whether you’re traveling for work or pleasure, a <b>Nanyuki serviced apartment</b> leaves you free to come and go as you please with all the comfort and convenience of home along with <b>Nanyuki hotel</b> benefits including a weekly clean and free WiFi. Choose from over 1000 <b>short stay apartments in Nanyuki</b> and apartments throughout the <b>Nanyuki. Rent Furnished Apartments in Nanyuki</b>, whether you are looking for <b>short term rentals</b> or long-term rental n with flexible terms, you will always find the ideal serviced <b>apartments for rent in Nanyuki</b> here. All the <b>apartments in Nanyuki</b> are available for daily weekly or monthly stays. Choosing an <b>apartment in Nanyuki</b> for a short-term rental while staying in <b>Nanyuki</b> is a great alternative to the ordinary, cramped setting of a <b>Nanyuki hotel. Furnished apartments in Nanyuki</b> provides a number of options for those individuals who are looking for a short term, weekly or monthly rental apartment while visiting <b>Nanyuki</b> for business or pleasure. When one contacts <b>Nanyuki apartments rental, </b> they can rest assured that their short-term rental needs will be superbly met and the following reasons show why choosing <b>rent an apartment in Nanyuki</b> for short term rental needs is a good choice. <b>Furnished apartments for rent in Nanyuki</b> come in all sorts of shapes and sizes! For example, you <b>can rent a serviced apartment</b>, indeed, you can rent a <b>1bedroom or 2 bedroom or 3 bedroom or 4-bedroom apartment in Nanyuki, </b> Moreover, there are 5 Bedroom furnished apartments available for rent in <b>Nanyuki</b>. For those who love the high life, one can rent furnished penthouses and duplexes in <b>Nanyuki</b>. Some <b>apartments for sale in Nanyuki</b> even offer all utilities included, or chiller free. Indeed, most <b>furnished Nanyuki apartments</b> offer a cleaning service twice a week.  Our <b>serviced apartments in Nanyuki</b> serve as a private haven for extended stay guests with its authentic family-like hospitality. Experience unparalleled comforts of home at our conveniently located <b>Nanyuki Apartments to let. </b> The essence of <b>lifestyle Apartments</b> is to recreate and combine the flair of the Aristocracy with modern Luxury facilities. Step into every apartment and be immediately greeted by pared-back aesthetics and cushioned bay window seats, the ideal space to take in the expansive views. Our <b>Nanyuki hotel</b>-style accommodations boast a functional layout with a kitchen, a dining table, cable TV and more – to make every stay equally home-like, short or extended. Discover a world within <b>Lifestyle</b> <b>Apartments</b>. Relax or mingle at our range of functional and leisure facilities, each serving as an intimate extension of your personal space. Our devoted team is dedicated to perfecting every detail for that effortless and genuine comfort that reminds you fondly of home. Just a stone’s throw away from the bustling multinational business area and exciting <b>Nanyuki nightlife, Nanyuki Lifestyle Apartments</b> are the perfect base to explore <b>Nanyuki</b> serene esplanades, accessible shopping, and colorful mix of local and cosmopolitan community. <b>Nanyuki Apartments</b> manages personal hotels and <b>serviced apartments in Nanyuki, </b> our properties are centrally located in prominent business districts, high-end shopping and entertainment neighborhoods. By combining the comfort of home living with attentive hospitality, we consistently observe our business model to create spaces where our guests can enjoy and relax in, making the <b>Lifestyle Apartments</b> a success. If you’re seeking <b>Nanyuki apartments for sale</b>, then you’re in the right place. we have a variety of <b>Apartments for sale in Nanyuki, </b> with many offered furnished. Whether you’re a first-time buyer in search of a 2-bedroom <b>house for sale in Nanyuki</b> or you're seeking a Buy-to-Let property <b>apartments in Nanyuki</b>, read on to find out about the residential opportunities available. Whether you’re in search of a furnished or unfurnished <b>Apartments for sale in Nanyuki, </b> there are many options available with our new build apartments in parklands If you’re looking for a 1-, 2-, 3- or 4-bedroom flat for sale in <b>Nanyuki</b> then we are here to help. With many available to purchase for penthouse apartments in parklands, we on offer to residents.  Our <b>Nanyuki Self-Catering Cottage</b> experts travel the length in Kenya to find the very best <b>Self-Catering Cottages in Nanyuki</b> for you to stay in, they have tested everything from intimate <b>Nanyuki Self-Catering Houses to luxury Self-Catering in Nanyuki</b> and small beautiful <b>Self-Catering Homes in Nanyuki</b> so that you can enjoy a luxurious escape, wherever you choose to go. If you know what part of <b>Nanyuki</b> you want to visit, browse our luxury <b>Nanyuki self catering House</b> by location, all our <b>self-catering houses in Nanyuki</b> have been handpicked and inspected in person by one of our luxury <b>self catering homes</b> experts. From beautifully designed barn conversions to cozy thatched <b>safari cottages</b>, modern <b>Nanyuki bush homes</b> with state-of-the-art facilities to magnificent <b>country houses</b>, we have a stylish property to suit you, whatever you’re looking for. Kenya Safari Homes gives you the freedom and privacy that’s needed to enjoy a well-earned break. From <b>Nanyuki house</b> and luxury <b>Nanyuki villas</b> to safari huts and <b>Nanyuki eco cottages, </b> the options are seemingly endless. Cook in your kitchen, read in the garden, or chill on the sofa and watch TV – however you choose to spend time, you’ll feel right at home. Our website offers any <b>cottage in Nanyuki</b> where our customers are able to choose from a wide range of <b>cottages in Nanyuki</b> from different areas. The <b>houses in Nanyuki</b> can be booked for family gatherings, small getaways for friends or romantic break for two. Our website aims to provide excellent standards and customer satisfaction at affordable <b>prices</b>. As experts in <b>Nanyuki homes, </b> we offer our customers the ability to book <b>Nanyuki self catering cottages</b>, each safari cottage has been handpicked by one of our <b>Nanyuki self-catering house</b> experts to ensure high quality and great value for money. Our unique selection of <b>Nanyuki cottages</b> to rent in <b>Nanyuki</b> means there is something for everyone, from pet-friendly <b>Nanyuki cottages</b> and <b>Nanyuki self-catering homes</b> to <b>Nanyuki self catering cottages</b> with hot tubs. We use our years of experience to match our customers with their dream <b>cottage in Nanyuki</b>, so what are you waiting for? Find out what we can offer you, if you are thinking of <b>safaris in Kenya</b> we’ve got your back, every day we are adding more and more <b>self-catering homes in Nanyuki</b> to our website, giving you a vast choice. The toughest part of planning a <b>bush cottage</b> is deciding where to stay! Whether you are looking for a <b>cottage in Nanyuki</b> to a <b>cottage in Nanyuki</b> we have something for you. You can book your next <b>bush home</b> online or by getting in touch with one of our helpful booking advisors as we have provided contacts telephone numbers, email address in these <b>cottage websites</b>. Our knowledgeable team of experts are available seven days a week to help plan your next <b>house in Nanyuki</b> and answer any queries you may have. We pride ourselves on getting to know our customers. Our website features a load of information about the destinations we cover. We have full descriptions and photographs of all our <b>self-catering houses in Nanyuki.</b> We publish genuine reviews from previous customers too, so you know just what to expect from your <b>Nanyuki Self-catering House</b> before you arrive
+     </p>    
+      </div>        
+    </section>
+       <hr>
+       <br>
+      <section class="row" id="gallery">
+        <h2 style="text-align: center;">Our Gallery</h2>
+        
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="459739972 (1).jpg" data-bs-title="Oustide View">
+                                    <img src="459739972 (1).jpg" class="d-block w-100" alt="Gallery Image 1">
+                                </a>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="459740125.jpg" data-bs-title="Aerial Shot">
+                                    <img src="459740125.jpg" class="d-block w-100" alt="Gallery Image 2">
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="459740875.jpg" data-bs-title="Inside ">
+                                    <img src="459740875.jpg" class="d-block w-100" alt="Gallery Image 3">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="459741022.jpg" data-bs-title="">
+                                    <img src="459741022.jpg" class="d-block w-100" alt="Gallery Image 1">
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="459741188.jpg" data-bs-title="">
+                                    <img src="459741188.jpg" class="d-block w-100" alt="Gallery Image 2">
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="459741349.jpg" data-bs-title="">
+                                    <img src="459741349.jpg" class="d-block w-100" alt="Gallery Image 3">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="385531624.jpg" data-bs-title="">
+                                    <img src="385531624.jpg" class="d-block w-100" alt="Gallery Image 1">
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="459740760.jpg" data-bs-title="">
+                                    <img src="459740760.jpg" class="d-block w-100" alt="Gallery Image 2">
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="459740247.jpg" data-bs-title="">
+                                    <img src="459740247.jpg" class="d-block w-100" alt="Gallery Image 3">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden=" true">Previous</span>
+                    
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true">Next</span>
+                    
+                </button>
+            </div>
+    </section>
+    
+    <!-- Modal -->
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="" class="img-fluid" id="modal-image" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var galleryLinks = document.querySelectorAll('.gallery-link');
+
+        galleryLinks.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                var imgSrc = link.getAttribute('data-bs-img');
+                var imgTitle = link.getAttribute('data-bs-title');
+                var modalImg = document.getElementById('modal-image');
+                var modalTitle = document.getElementById('exampleModalLabel');
+
+                modalImg.setAttribute('src', imgSrc);
+                modalTitle.innerText = imgTitle;
+
+                var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+                myModal.show();
+            });
+        });
+
+        var modal = document.getElementById('exampleModal');
+        modal.addEventListener('hidden.bs.modal', function () {
+            // Remove the modal backdrop to restore interactivity
+            document.querySelector('.modal-backdrop').remove();
+        });
+    });
+</script>     
+      <hr class="hr">
+      
+      <section class="row d-flex justify-content-center" id="contact">
+        <h2 style="text-align: center;">Contact Us</h2>
+        <div class="col-md-6">
+          <!-- Contact form -->
+          <form id="contactForm">
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" name="subject" required>
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Your Phone</label>
+              <input type="text" class="form-control" id="subject" name="subject" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>      
+      </section>
+        <br>
+        <hr class="hr">
+    </main>
+
+  <footer class="text-light py-3">
+    <div class="container-fluid">
+      <ul class="nav justify-content-center footer-links">
+        <li class="nav-item"><a href="" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="" class="nav-link">ABOUT US</a></li>
+            <li class="nav-item"><a href="" class="nav-link">WHY US</a></li>
+            <li class="nav-item"><a href="" class="nav-link">REVIEWS</a></li>
+            <li class="nav-item"><a href="" class="nav-link">BLOGS</a></li>
+            <li class="nav-item"><a href="#gallery" class="nav-link">GALLERY</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">CONTACT US</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (optional, if you need JS functionalities) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Add this script tag at the end of your HTML body -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function() {
+    // Initialize EmailJS with your user ID
+    emailjs.init("YOUR_USER_ID");
+
+    // Add event listener to the form
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent the default form submission
+
+      // Get the form data
+      let formData = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        subject: document.getElementById("subject").value,
+        message: document.getElementById("message").value
+      };
+
+      // Send the form data using EmailJS
+      emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", formData)
+        .then(function(response) {
+          console.log("Email sent successfully!", response);
+          alert("Your message has been sent successfully!");
+        }, function(error) {
+          console.error("Email sending failed:", error);
+          alert("Sorry, an error occurred while sending your message. Please try again later.");
+        });
+    });
+  })();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
